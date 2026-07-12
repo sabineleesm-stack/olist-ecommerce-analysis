@@ -69,21 +69,21 @@ This project answers four main business questions using the Olist e-commerce dat
 ---
 
 ### Q1. Which product category generated the highest sales?
-![Q1 Revenue by Category](outputs/q1_revenue_by_category.png)
+![Q1 Revenue by Category]
 * **Chart Description:** A bar chart showing the top 10 product categories by total sales.
 * **Analysis Result:** `health_beauty`, `watches_gifts`, and `bed_bath_table` recorded the highest sales (over 1 million BRL each). This shows they are the core revenue drivers for the business.
 
 ### Q2. How did monthly sales change over time?
-![Q2 Monthly Revenue](outputs/q2_monthly_revenue.png)
+![Q2 Monthly Revenue]
 * **Chart Description:** A line chart showing the monthly sales trend from October 2016 to August 2018.
 * **Analysis Result:** The business shows a clear upward growth trend over time. We can also see sales spikes in specific months (like November 2017, likely due to Black Friday events).
 
 ### Q3. How is the overall delivery time distributed?
-![Q3 Delivery Distribution](outputs/q3_delivery_distribution.png)
+![Q3 Delivery Distribution]
 * **Chart Description:** A histogram showing the distribution of total delivery days (extreme outliers are hidden for better view).
 * **Analysis Result:** The median delivery time is **10.0 days**. Most orders are successfully delivered between 5 and 15 days. However, the graph has a long right tail, meaning some orders experience long delivery delays.
 
 ### Q4. How does delivery time differ across top revenue categories?
-![Q4 Delivery by Category](outputs/q4_delivery_by_category.png)
+![Q4 Delivery by Category]
 * **Chart Description:** A box plot comparing the delivery times among the top 10 categories with the highest revenue.
 * **Analysis Result:** Most top categories have a similar median delivery time of 9 to 10 days. `housewares` is delivered slightly faster (8.0 days median), while `computers_accessories` takes a bit longer (11.0 days median). This helps us easily compare the shipping performance of key products.
