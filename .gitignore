@@ -1,6 +1,16 @@
+# 1. Virtual environment (Local setup only)
 venv/
+
+# 2. Data and output files (To avoid large uploads to GitHub)
 data/
 outputs/
+
+# 3. Python cache files (Auto-generated)
 __pycache__/
 *.pyc
+
+# 4. Jupyter Notebook backup files (Auto-generated checkpoints)
+.ipynb_checkpoints/
+
+# 5. Mac OS system files (Auto-generated hidden files)
 .DS_Store
