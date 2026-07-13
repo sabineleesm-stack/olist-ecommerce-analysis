@@ -47,12 +47,12 @@ If you want to view the actual data tables in your terminal after running the pi
 ⚠️ Please make sure to delete this code after checking!
 ```bash
 print("\nQ1 revenue_by_category:\n", results["revenue_by_category"])
-    print("\nQ2 monthly_revenue:\n", results["monthly_revenue"])
-    print("\nQ3 delivery_distribution stats:\n", results["delivery_distribution"].describe())
-    print(
-        "\nQ4 delivery_by_category:\n",
-        results["delivery_by_category"].groupby("category")["delivery_days"].describe(),
-    )
+print("\nQ2 monthly_revenue:\n", results["monthly_revenue"])
+print("\nQ3 delivery_distribution stats:\n", results["delivery_distribution"].describe())
+print(
+    "\nQ4 delivery_by_category:\n",
+    results["delivery_by_category"].groupby("category")["delivery_days"].describe(),
+)
 ```
 
 ## 📈 Analysis Questions & Visualizations
